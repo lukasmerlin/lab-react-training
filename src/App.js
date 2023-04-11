@@ -9,10 +9,16 @@ import DriveCard from './components/DriveCard';
 import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
+import Carousel from './components/Carousel';
 
 
 function App() {
+
+
+
   return (
+
+  
     <div className="App">
       <IdCard
         lastName='Doe'
@@ -109,6 +115,15 @@ function App() {
     />
 
     <Dice />
+
+      <Carousel
+        images={[
+          'https://xsgames.co/randomusers/assets/avatars/male/50.jpg',
+          'https://xsgames.co/randomusers/assets/avatars/female/45.jpg',
+          'https://xsgames.co/randomusers/assets/avatars/male/8.jpg',
+          'https://xsgames.co/randomusers/assets/avatars/female/21.jpg',
+        ]}
+      />
 
     </div>
   );
