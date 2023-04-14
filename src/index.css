@@ -131,3 +131,31 @@ code {
   width: 100px;
   text-align: center;
 }
+
+.numbers-table {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 252px;
+  margin-left: 100px;
+}
+
+.even {
+  background-color: rgb(45, 45, 128);
+  color: white;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+
+.odd {
+  background-color: rgb(245, 245, 245);
+  color: black;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
